@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		542B918C3C2F4E18651FAA57 /* Pods_WhereMyLunch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F62B1863B23C57F62778F55 /* Pods_WhereMyLunch.framework */; };
+		811543481E81274300CF35E0 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811543471E81274300CF35E0 /* Store.swift */; };
+		B2132ABA1E6D990D00E050FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2132AB91E6D990D00E050FF /* AppDelegate.swift */; };
+		B2132ABC1E6D990D00E050FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2132ABB1E6D990D00E050FF /* ViewController.swift */; };
+		B2132ABF1E6D990D00E050FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2132ABD1E6D990D00E050FF /* Main.storyboard */; };
+		B2132AC11E6D990D00E050FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2132AC01E6D990D00E050FF /* Assets.xcassets */; };
+		B2132AC41E6D990D00E050FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2132AC21E6D990D00E050FF /* LaunchScreen.storyboard */; };
+		B2506C181E717C4A00AF265D /* MyLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2506C171E717C4A00AF265D /* MyLocationManager.swift */; };
+		B2C648061E7D85EB00F9676C /* GoogleMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C648051E7D85EB00F9676C /* GoogleMapViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F62B1863B23C57F62778F55 /* Pods_WhereMyLunch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhereMyLunch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		811543471E81274300CF35E0 /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		B1D84C9C3A61A224011C743C /* Pods-WhereMyLunch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhereMyLunch.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhereMyLunch/Pods-WhereMyLunch.release.xcconfig"; sourceTree = "<group>"; };
+		B2132AB61E6D990D00E050FF /* WhereMyLunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhereMyLunch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2132AB91E6D990D00E050FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2132ABB1E6D990D00E050FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2132ABE1E6D990D00E050FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2132AC01E6D990D00E050FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2132AC31E6D990D00E050FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2132AC51E6D990D00E050FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2506C171E717C4A00AF265D /* MyLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLocationManager.swift; sourceTree = "<group>"; };
+		B2C648051E7D85EB00F9676C /* GoogleMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleMapViewController.swift; sourceTree = "<group>"; };
+		B392A8BBAA1855AAA63669A1 /* Pods-WhereMyLunch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhereMyLunch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhereMyLunch/Pods-WhereMyLunch.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2132AB31E6D990D00E050FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542B918C3C2F4E18651FAA57 /* Pods_WhereMyLunch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33F47ABD269AB1E000BBE835 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F62B1863B23C57F62778F55 /* Pods_WhereMyLunch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2132AAD1E6D990D00E050FF = {
+			isa = PBXGroup;
+			children = (
+				B2132AB81E6D990D00E050FF /* WhereMyLunch */,
+				B2132AB71E6D990D00E050FF /* Products */,
+				EBC70B36B331913D08B0BB77 /* Pods */,
+				33F47ABD269AB1E000BBE835 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B2132AB71E6D990D00E050FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2132AB61E6D990D00E050FF /* WhereMyLunch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2132AB81E6D990D00E050FF /* WhereMyLunch */ = {
+			isa = PBXGroup;
+			children = (
+				B2132AB91E6D990D00E050FF /* AppDelegate.swift */,
+				B2132ABB1E6D990D00E050FF /* ViewController.swift */,
+				B2C648051E7D85EB00F9676C /* GoogleMapViewController.swift */,
+				B2506C171E717C4A00AF265D /* MyLocationManager.swift */,
+				811543471E81274300CF35E0 /* Store.swift */,
+				B2132ABD1E6D990D00E050FF /* Main.storyboard */,
+				B2132AC01E6D990D00E050FF /* Assets.xcassets */,
+				B2132AC21E6D990D00E050FF /* LaunchScreen.storyboard */,
+				B2132AC51E6D990D00E050FF /* Info.plist */,
+			);
+			path = WhereMyLunch;
+			sourceTree = "<group>";
+		};
+		EBC70B36B331913D08B0BB77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B392A8BBAA1855AAA63669A1 /* Pods-WhereMyLunch.debug.xcconfig */,
+				B1D84C9C3A61A224011C743C /* Pods-WhereMyLunch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2132AB51E6D990D00E050FF /* WhereMyLunch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2132AC81E6D990D00E050FF /* Build configuration list for PBXNativeTarget "WhereMyLunch" */;
+			buildPhases = (
+				81888A837344FA1B2284EE65 /* [CP] Check Pods Manifest.lock */,
+				B2132AB21E6D990D00E050FF /* Sources */,
+				B2132AB31E6D990D00E050FF /* Frameworks */,
+				B2132AB41E6D990D00E050FF /* Resources */,
+				435D485E639DDED2002491B4 /* [CP] Embed Pods Frameworks */,
+				9A2D35C78FE97CE34D5C1A68 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhereMyLunch;
+			productName = WhereMyLunch;
+			productReference = B2132AB61E6D990D00E050FF /* WhereMyLunch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2132AAE1E6D990D00E050FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = sabrinaApp;
+				TargetAttributes = {
+					B2132AB51E6D990D00E050FF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = H8978L8LYC;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B2132AB11E6D990D00E050FF /* Build configuration list for PBXProject "WhereMyLunch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2132AAD1E6D990D00E050FF;
+			productRefGroup = B2132AB71E6D990D00E050FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2132AB51E6D990D00E050FF /* WhereMyLunch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2132AB41E6D990D00E050FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2132AC41E6D990D00E050FF /* LaunchScreen.storyboard in Resources */,
+				B2132AC11E6D990D00E050FF /* Assets.xcassets in Resources */,
+				B2132ABF1E6D990D00E050FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		435D485E639DDED2002491B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhereMyLunch/Pods-WhereMyLunch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81888A837344FA1B2284EE65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A2D35C78FE97CE34D5C1A68 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhereMyLunch/Pods-WhereMyLunch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2132AB21E6D990D00E050FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				811543481E81274300CF35E0 /* Store.swift in Sources */,
+				B2132ABC1E6D990D00E050FF /* ViewController.swift in Sources */,
+				B2506C181E717C4A00AF265D /* MyLocationManager.swift in Sources */,
+				B2C648061E7D85EB00F9676C /* GoogleMapViewController.swift in Sources */,
+				B2132ABA1E6D990D00E050FF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B2132ABD1E6D990D00E050FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2132ABE1E6D990D00E050FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2132AC21E6D990D00E050FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2132AC31E6D990D00E050FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2132AC61E6D990D00E050FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2132AC71E6D990D00E050FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2132AC91E6D990D00E050FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B392A8BBAA1855AAA63669A1 /* Pods-WhereMyLunch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = H8978L8LYC;
+				INFOPLIST_FILE = WhereMyLunch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lozb.WhereMyLunch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B2132ACA1E6D990D00E050FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1D84C9C3A61A224011C743C /* Pods-WhereMyLunch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = H8978L8LYC;
+				INFOPLIST_FILE = WhereMyLunch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lozb.WhereMyLunch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2132AB11E6D990D00E050FF /* Build configuration list for PBXProject "WhereMyLunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2132AC61E6D990D00E050FF /* Debug */,
+				B2132AC71E6D990D00E050FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2132AC81E6D990D00E050FF /* Build configuration list for PBXNativeTarget "WhereMyLunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2132AC91E6D990D00E050FF /* Debug */,
+				B2132ACA1E6D990D00E050FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2132AAE1E6D990D00E050FF /* Project object */;
+}
